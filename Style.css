@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.flex{
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+}
+table,th,td{
+    color: white;
+    border: 1px solid rebeccapurple;
+    border-collapse: collapse;
+    text-align: center;
+    /* line-height: 50px; */
+    padding: 30px;
+    color: aqua;
+}
+th:hover,td:hover{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}
